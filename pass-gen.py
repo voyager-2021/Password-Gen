@@ -8,4 +8,6 @@ symbols = "@#$%&*/\?!€;:()-_=+[]{}.,'"
 Use_For = lower_case + upper_case + nuber + symbols
 length_for_pass = 8
 
-password ="".join(random
+password ="".join(random.sample(Use_For, length_for_pass))
+
+print("You Generated Password is :" + password)
