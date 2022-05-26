@@ -10,4 +10,6 @@ PYPIP Is Optional
 
 # How to install PYPIP
 
-Go, This wbsite https://pypi.org
+Windows
+
+'py get-pip.py'
